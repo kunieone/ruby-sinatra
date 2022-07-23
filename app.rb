@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  'Choo Choo! Welcome to your Sinatra server 🚅'
+  haml '%div.title Hello World'
 end
